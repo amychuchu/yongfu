@@ -1,0 +1,41 @@
+.data-origin{
+  background: url(../image/beijing2.png);
+  background-size: contain;
+  h2{
+    margin:0;
+    padding-top: 20px;
+  }
+  .content{
+    overflow: hidden;
+    padding:15px 50px 80px;
+    margin:0;
+    .data-item{
+      float: left;
+      height:260px;
+      width: 200px;
+      box-shadow:  5px 10px 10px rgba(0,0,0,0.7);
+      padding: 10px;
+      border: 1px dashed @border-color;
+      background-color: #fff;
+      margin-right:40px;
+      &:nth-last-child(1){
+        margin-right: 0;
+      }
+      h4{
+        color: #333;
+        font-size: 20px;
+        text-align: center;
+        margin: 20px 0;
+        font-weight: normal;
+      }
+      p{
+        font-size: 16px;
+        background-color: #e5eefe;
+        text-align: center;
+        height: 30px;
+        line-height:30px;
+        margin: 18px 0;
+      }
+    }
+  }
+}
